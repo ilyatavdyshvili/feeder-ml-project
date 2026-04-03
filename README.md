@@ -20,7 +20,7 @@
 ## Запуск
 
 ### Установка зависимостей
-pip install -r requirements.txt
+pip install -m pip install -r requirements.txt
 
 ### Обучение
 python src/train.py
@@ -29,4 +29,4 @@ python src/train.py
 python src/predict.py
 
 ### Запуск приложения
-streamlit run app/app.py
+python -m streamlit run app/app.py
